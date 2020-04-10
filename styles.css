@@ -45,6 +45,11 @@ input, .submit-btn {
     padding: 8px;
     margin-bottom: 15px;
     font-size: 0.9em;
+    border: none;
+}
+
+input:focus {
+    outline: none;
 }
 
 select {
@@ -72,10 +77,12 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 textarea {
-    width: 100%;
+    width: 99%;
     margin-bottom: 32px;
     font-size: 0.8em;
     resize: none;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .optional {
